@@ -1,1 +1,19 @@
 /* You can add global styles to this file, and also import other style files */
+
+.rotate-45-left:before {
+    display: block;
+    -o-transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+}
+
+.rotate-45-right:before {
+    display: block;
+    -o-transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+
+.jog-button-padding {
+    padding: 1px;
+}
