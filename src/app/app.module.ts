@@ -4,21 +4,28 @@ import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 
 
 
+
 import { AppComponent } from './app.component';
 import { JogComponent } from './jog/jog.component';
 import { ConsoleComponent } from './console/console.component';
 import { GcodeComponent } from './gcode/gcode.component';
+import { ConnectionComponent } from './connection/connection.component';
+import { HttpClientModule } from '@angular/common/http';
+import { PositionComponent } from './position/position.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     JogComponent,
     ConsoleComponent,
-    GcodeComponent
+    GcodeComponent,
+    ConnectionComponent,
+    PositionComponent
   ],
   imports: [
     BrowserModule,
     FontAwesomeModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
